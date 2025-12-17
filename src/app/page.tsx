@@ -105,8 +105,12 @@ export default function Home() {
                 Register
               </Link>
             </div>
+
+            
           </motion.div>
         )}
+
+        
 
         {/* LOGGED IN */}
         {loggedIn && (
@@ -158,8 +162,11 @@ export default function Home() {
             </motion.div>
           </>
         )}
+
       </motion.div>
     </div>
+
+    
   );
 }
 
